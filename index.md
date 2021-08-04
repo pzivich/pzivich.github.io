@@ -1,23 +1,22 @@
 # Paul Zivich
 
-I am a doctoral candidate in epidemiology at University of North Carolina at Chapel Hill, with an MPH in epidemiology from The Ohio State 
-University. My interests are in causal inference with potential outcomes, particularly in the context of networks and contagious outcomes 
-(e.g. infectious diseases, health behaviors). My work has ranged from assessing the performance of estimators through simulation studies 
-to collection of contact network data with electronic sensors to application of causal inference in the context of infectious 
-disease and social epidemiology. I am also the creator of the [zEpid](https://github.com/pzivich/zEpid) Python 3.x library, a free-software 
-library for epidemiologic analyses and quantitative causal inference.
+I am a postdoctoral research associate at University of North Carolina at Chapel Hill in the Causal Inference Research
+Lab. I recieved my PhD in epidemiology from University of North Carolina at Chapel Hill, and an MPH in epidemiology 
+from The Ohio State University. My interests are in causal inference with potential outcomes, with a special focus in 
+the context of networks and contagious outcomes (e.g. infectious diseases, health behaviors). I also specialize in 
+computational aspects of epidemiology. My work has ranged from assessing the performance of estimators through 
+simulation studies to collection of contact network data with electronic sensors to application of causal inference 
+in the context of infectious disease and social epidemiology. I am also the creator of the 
+[zEpid](https://github.com/pzivich/zEpid) Python 3.x library, a free-software library for epidemiologic analyses and 
+quantitative causal inference.
 
 ## Publications
 
-*   **Zivich PN**, Breskin A. “Machine learning for causal inference: on the use of cross-fit estimators” arXiv:2004.10337 (2020) [LINK](https://arxiv.org/abs/2004.10337)
-*   Aiello AE, Renson A, **Zivich PN**. “Social media- and internet-based surveillance for public health” Annual Reviews of Public Health. 2020; 41 [LINK](https://www.annualreviews.org/doi/abs/10.1146/annurev-publhealth-040119-094402)
-*   Smith NR, **Zivich PN**, Frerichs L, Moody J, Aiello AE. “A guide for choosing community detection algorithms in social network studies: the question-alignment approach” American Journal of Preventative Medicine (2020).
-*   Smith NR, **Zivich PN**, Frerichs L. “Social influences on obesity: current knowledge, emerging methods, and directions for future research and practice” Current Nutrition Reports. 2020 March; 9(1):31-41 [LINK](https://link.springer.com/article/10.1007%2Fs13668-020-00302-8)
-*   **Zivich PN**, Grabenstein JD, Becker-Dreps SI, Weber DJ. “Streptococcus pneumoniae Outbreaks and Implications for Transmission and Control: A Systematic Review” Pneumonia 2018 Nov; 10(11) [LINK](https://link.springer.com/article/10.1186/s41479-018-0055-4)
-*   **Zivich PN**, Kiketa L, Kawende B, Lapika B, Behets F, Yotebieng M. “Effect of Family Planning Counseling After Delivery on Contraceptive Use at 24 Weeks Postpartum in Kinshasa, Democratic Republic of Congo” Maternal and Child Health. 2019 Apr; 23(4):530-537 [LINK](https://link.springer.com/article/10.1007%2Fs10995-018-2667-y) 
-*   **Zivich PN**, Yotebieng M, Lapika B, Behets F. “Implementation of Ten Steps to successful Breastfeeding and incidence of diarrhea, respiratory tract infection, and hospitalization among 0-6 month infants in Kinshasa, Democratic Republic of Congo: A randomized controlled trial” Maternal and Child Health. 2018 April; 22(5):762-771 [LINK](https://link.springer.com/article/10.1007%2Fs10995-018-2446-9)
-* 	**Zivich PN**, Gancz A, Aiello AE. “Effect of Hand Hygiene in the Office Workplace on Infectious Diseases: A Systematic Review” American Journal of Infection Control. 2018 April; 46(4):448-455 [LINK](https://www.sciencedirect.com/science/article/pii/S0196655317311483)
-* 	**Zivich PN**, Tatham L, Lung K, Tien J, Bollinger CE, Bower JK. “The association of influenza vaccine status and timing with outcomes among patients in Columbus, Ohio (2012-2015).” Epidemiology and Infection. 2017 Nov;145(15):3284-3293 [LINK](https://doi.org/10.1017/S0950268817002163)
-* 	**Zivich PN**, Kiketa L, Kawende B, Lapika B, Yotebieng M. “Vaccination coverage and timelines among children 0-6 months, Democratic Republic of Congo: a prospective cohort study.” Maternal and Child Health. 2017 May;21(5):1055-1064 [LINK](https://doi.org/10.1007/s10995-016-2201-z)
+* **Zivich PN**, Volfovsky A, Moody J, Aiello AE. Assortativity can lead to bias in epidemiologic studies of contagious outcomes: a simulated example in the context of vaccination. *Am J Epidemiol.* (2021) [LINK](https://pubmed.ncbi.nlm.nih.gov/34089053/)
+* **Zivich PN**, and Breskin A. "Machine learning for causal inference: on the use of cross-fit estimators." *Epidemiology* 32.3 (2021): 393-401. [LINK](https://pubmed.ncbi.nlm.nih.gov/33591058/)
+* Smith NR, **Zivich PN**, Frerichs L, Moody J, Aiello AE. “A guide for choosing community detection algorithms in social network studies: the question-alignment approach” *American Journal of Preventative Medicine* (2020).
+* **Zivich PN**, Grabenstein JD, Becker-Dreps SI, Weber DJ. “Streptococcus pneumoniae Outbreaks and Implications for Transmission and Control: A Systematic Review” Pneumonia 2018 Nov; 10(11) [LINK](https://link.springer.com/article/10.1186/s41479-018-0055-4)
+* Zivich PN, Huang W, Walsh A, Dutta P, Eisenberg M, Aiello AE. Measuring office workplace interactions and hand hygiene behaviors through electronic sensors: A feasibility study. PLoS One. 2021 [LINK](https://pubmed.ncbi.nlm.nih.gov/33465139/)
+* Ciccone EJ, **Zivich PN**, Lodge EK, et al. SARS-CoV-2 Infection in Health Care Personnel and Their Household Contacts at a Tertiary Academic Medical Center: Protocol for a Longitudinal Cohort Study. *JMIR Res Protoc.* (2021). [LINK](https://www.researchprotocols.org/2021/4/e25410)
 
-Analytic code for applicable articles is also available [here](https://github.com/pzivich/publications-code)
+Open-source code for applicable articles is available [here](https://github.com/pzivich/publications-code)
