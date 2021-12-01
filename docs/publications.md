@@ -6,6 +6,8 @@ nav_order: 2
 
 # Selected Publications
 
+Following are some of my selected publications. Links to each of the corresponding papers are provided:
+
 *   **Zivich PN**, Breskin A. “Machine learning for causal inference: on the use of cross-fit estimators” arXiv:2004.10337 (2020) [LINK](https://arxiv.org/abs/2004.10337)
 *   Aiello AE, Renson A, **Zivich PN**. “Social media- and internet-based surveillance for public health” Annual Reviews of Public Health. 2020; 41 [LINK](https://www.annualreviews.org/doi/abs/10.1146/annurev-publhealth-040119-094402)
 *   Smith NR, **Zivich PN**, Frerichs L, Moody J, Aiello AE. “A guide for choosing community detection algorithms in social network studies: the question-alignment approach” American Journal of Preventative Medicine (2020).
