@@ -2,3 +2,17 @@ theme: jekyll-theme-minimal
 title: Paul Zivich
 logo: /images/paul_zivich_min.JPG
 description: Paul Zivich is a Epidemiology PhD candidate at UNC-CH 
+
+twitter:
+  username               : PausalZ
+
+author:
+  name             : "Paul Zivich"
+  pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=Paul+Zivich"
+  googlescholar    : "https://scholar.google.com/citations?user=hbU-gZ0AAAAJ&hl=en"
+  email            : "zivich.5@gmail.com"
+  researchgate     : "https://www.researchgate.net/profile/Paul-Zivich"
+  github           : "pzivich"
+  orcid            : "https://orcid.org/0000-0002-9932-1095"
+  stackoverflow    : "https://stats.stackexchange.com/users/247479/pzivich"
+  twitter          : "PausalZ"
