@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Paul Zivich
+title: Home
 nav_order: 1
 description: "Paul Zivich is a postdoctoral researcher at UNC-CH"
 permalink: /
