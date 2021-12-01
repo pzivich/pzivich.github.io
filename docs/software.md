@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Software
-nav_order: 3
+nav_order: 4
 ---
 
 # Software 
 
 I am a supporter of open-source software and believe it will lead to better and more trustworthy science. Below are 
 some of my open-source contributions.
+
+------------------
 
 ## Python
 
@@ -23,6 +25,8 @@ published analyses using zEpid are [here](https://github.com/pzivich/zEpid-repli
 Another of my Python libraries is [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for 
 generalized M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
 [here](https://deli.readthedocs.io/en/latest/Examples.html).
+
+------------------
 
 ## Open-Source Analytical Code
 

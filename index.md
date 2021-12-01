@@ -18,7 +18,14 @@ computational aspects of epidemiology. My work has ranged from assessing the per
 simulation studies to collection of contact network data with electronic sensors to application of causal inference
 in the context of infectious disease and social epidemiology. 
 
-[GitHub](https://github.com/pzivich){: .btn .mr-2 }
+------------------
+
+[GitHub](https://github.com/pzivich){: .btn .btn-outline .mr-2 }
 [Twitter](https://twitter.com/PausalZ){: .btn .btn-blue .mr-2 }
 [ResearchGate](https://www.researchgate.net/profile/Paul-Zivich){: .btn .btn-green .mr-2 }
 [GoogleScholar](https://scholar.google.com/citations?user=hbU-gZ0AAAAJ&hl=en){: .btn .btn-purple .mr-2 }
+[ORCID](https://orcid.org/0000-0002-9932-1095){: .btn .btn-outline .mr-2 }
+
+------------------
+
+Contact: zivich.5@gmail.com
