@@ -1,4 +1,9 @@
-# Paul Zivich
+---
+title: About
+---
+
+About Me
+=====
 
 I am a postdoctoral research associate at University of North Carolina at Chapel Hill in the Causal Inference Research
 Lab. I received my PhD in epidemiology from University of North Carolina at Chapel Hill, and an MPH in epidemiology
