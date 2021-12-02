@@ -6,7 +6,7 @@ description: "Paul Zivich is a postdoctoral researcher at UNC-CH"
 permalink: /
 ---
 
-![](https://github.com/pzivich/pzivich.github.io/blob/master/assets/images/paul_zivich_min.JPG)
+![Me](https://pzivich.github.io/assets/images/paul_zivich_min.JPG)
 
 # About
 
