@@ -18,3 +18,7 @@ Following are some of my selected publications. Links to each of the correspondi
 * 	**Zivich PN**, Gancz A, Aiello AE. “Effect of Hand Hygiene in the Office Workplace on Infectious Diseases: A Systematic Review” American Journal of Infection Control. 2018 April; 46(4):448-455 [LINK](https://www.sciencedirect.com/science/article/pii/S0196655317311483)
 * 	**Zivich PN**, Tatham L, Lung K, Tien J, Bollinger CE, Bower JK. “The association of influenza vaccine status and timing with outcomes among patients in Columbus, Ohio (2012-2015).” Epidemiology and Infection. 2017 Nov;145(15):3284-3293 [LINK](https://doi.org/10.1017/S0950268817002163)
 * 	**Zivich PN**, Kiketa L, Kawende B, Lapika B, Yotebieng M. “Vaccination coverage and timelines among children 0-6 months, Democratic Republic of Congo: a prospective cohort study.” Maternal and Child Health. 2017 May;21(5):1055-1064 [LINK](https://doi.org/10.1007/s10995-016-2201-z)
+
+---------------
+
+Contact: zivich.5@gmail.com
