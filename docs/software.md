@@ -30,6 +30,14 @@ I ams also the creator of [delicatessen](https://github.com/pzivich/Delicatessen
 M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
 [here](https://deli.readthedocs.io/en/latest/Examples.html).
 
+![mossspider_logo](https://pzivich.github.io/assets/images/mossspider_header.png)
+
+### MossSpider
+
+[MossSpider](https://github.com/pzivich/MossSpider) is a Python library for targeted maximum likelihood estimation with
+network-dependent data and stochastic policies. This library is part of my dissertation work.  Details and examples are
+provided [here](https://mossspider.readthedocs.io/en/latest/).
+
 ------------------
 
 ## Open-Source Analyses
