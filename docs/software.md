@@ -20,7 +20,7 @@ some of my open-source contributions.
 I am the creator of the [zEpid](https://github.com/pzivich/zEpid) Python library, a open-source library for 
 epidemiologic analyses and quantitative causal inference. Various tutorials are available 
 [here](https://github.com/pzivich/Python-for-Epidemiologists/tree/master/3_Epidemiology_Analysis) and replications of
-published analyses using zEpid are [here](https://github.com/pzivich/zEpid-replications)
+published analyses using zEpid are [here](https://github.com/pzivich/zEpid-replications).
 
 ![deli_logo](https://pzivich.github.io/assets/images/delicatessen_header.png)
 
@@ -28,7 +28,8 @@ published analyses using zEpid are [here](https://github.com/pzivich/zEpid-repli
 
 I ams also the creator of [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for generalized 
 M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
-[here](https://deli.readthedocs.io/en/latest/Examples.html).
+[here](https://deli.readthedocs.io/en/latest/Examples.html). An associated pre-print is available on 
+[arXiv](https://arxiv.org/abs/2203.11300).
 
 ![mossspider_logo](https://pzivich.github.io/assets/images/mossspider_header.png)
 
