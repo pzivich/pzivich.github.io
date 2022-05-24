@@ -15,9 +15,15 @@ Following are some of my selected presentations.
 
 ---------------
 
-Recordings
+# Recordings
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UkI6t_fNaMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---------------
+
+# Slides
+
+Slides for selected presentations are available on [GitHub](https://github.com/pzivich/Presentations)
 
 ---------------
 
