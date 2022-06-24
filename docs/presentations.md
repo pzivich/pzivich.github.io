@@ -8,9 +8,10 @@ nav_order: 3
 
 Following are some of my selected presentations.
 
+* **Zivich PN**. (2022) "M-estimation for fusion designs". Oral Presentation at the 55th annual Society for Epidemiologic Research (SER). June 14-17, 2022. Chicago, IL.
+* **Zivich PN**. (2022) "Realistic policies on influenza vaccination and risk of subsequent influenza among university students: application of targeted maximum likelihood estimation with interference". Oral Presentation at the 55th annual Society for Epidemiologic Research (SER). June 14-17, 2022. Chicago, IL.
+* **Zivich PN**. (2022) "Fusion to address systematic errors across data sources". Oral Presentation at the Emerging Challenges for Statistics and Data Sciences: Complex Data with Missingness, Measurement Errors, and High Dimensionality. May 23-27, 2022. University of British Columbia - Okanagan, Kelowna, British Columbia, Canada.
 * **Zivich PN**. “Efficient machine learning for causal effects” Health Data Science for Impact Workshop at Singapore Institute for Clinical Sciences. March 16-18, 2021 Virtual.
-* **Zivich PN**, Hudgens MG, Moody J, Brookhart MA, Weber DJ, Aiello AE. “Examining the utility of targeted maximum likelihood estimation for network data” Oral Presentation at the 53rd annual Society for Epidemiologic Research. December 15-18, 2020 Virtual.
-* **Zivich PN**. (2019) “Application of potential outcomes in social exposures”. Invited oral presentation at University of North Carolina at Chapel Hill Social Epidemiology Seminar. October 9, 2019. Chapel Hill, NC.
 * **Zivich PN**, Volfovsky A, Moody J, Aiello AE. (2019) “Assortativity by Treatment in Social Networks and Bias in Population Health Studies”. Oral Presentation at the Interdisciplinary Association of Population Health Scientists Meeting. October 1-4, 2019. Seattle, WA.
 
 ---------------

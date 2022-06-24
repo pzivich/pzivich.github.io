@@ -11,12 +11,15 @@ permalink: /
 # About
 
 I am a postdoctoral research associate at University of North Carolina at Chapel Hill in the Causal Inference Research
-Lab. I received my PhD in epidemiology from University of North Carolina at Chapel Hill, and an MPH in epidemiology
-from The Ohio State University. My interests are in causal inference with potential outcomes, with a special focus in
-the context of networks and contagious outcomes (e.g. infectious diseases, health behaviors, etc.). I specialize in
-computational aspects of epidemiology. My work has ranged from assessing the performance of estimators through
-simulation studies to collection of contact network data with electronic sensors to application of causal inference
-in the context of infectious disease and social epidemiology. 
+Lab. I received my PhD in epidemiology from University of North Carolina at Chapel Hill, and my MPH in epidemiology
+from The Ohio State University. My interests are in causal inference with potential outcomes, with specialization in
+the context of networks and contagious outcomes (e.g. infectious diseases, health behaviors, etc.). Additionally, I
+work on fusion problems. I also focus on computational aspects of epidemiology. My work has ranged from assessing the 
+performance of estimators through simulation studies to collection of contact network data with electronic sensors to 
+application of causal inference in the context of infectious disease and social epidemiology. 
+
+My website provides a highlighted selection of publications, presentations, and software I have written. For a summary
+of all my previous work, please see my CV.
 
 ------------------
 
