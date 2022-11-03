@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Paul Zivich
-tagline: Academic site for Paul Zivich
 description: Personal site for Paul Zivich
 ---
 
