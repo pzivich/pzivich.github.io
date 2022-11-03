@@ -24,7 +24,7 @@ published analyses using zEpid are [here](https://github.com/pzivich/zEpid-repli
 
 ### Delicatessen
 
-<img src="assets/images/delicatessen_header.png" alt="deli_logo" width="450">
+<img align="center" src="assets/images/delicatessen_header.png" alt="deli_logo" width="450">
 
 I ams also the creator of [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for generalized 
 M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
