@@ -6,7 +6,7 @@ description: Personal site for Paul Zivich
 
 # About
 
-<img align="right" src="assets/images/paul_zivich_min.JPG" alt="Me" width="300">
+<img align="right" src="assets/images/paul_zivich_min.JPG" alt="Me" width="400">
 
 I am a postdoctoral trainee at University of North Carolina at Chapel Hill in the Institute of Global Health and 
 Infectious Diseases. My interests are in causal inference with potential outcomes, with 

@@ -14,7 +14,9 @@ some of my open-source contributions.
 
 ### zEpid
 
-<img src="../assets/images/zepid_logo.png" alt="zEpid_logo" width="450">
+<p align="center">
+    <img src="../assets/images/zepid_logo.png" alt="zEpid_logo" width="450">
+</p>
 
 I am the creator of the [zEpid](https://github.com/pzivich/zEpid) Python library, a open-source library for 
 epidemiologic analyses and quantitative causal inference. Various tutorials are available 
@@ -24,7 +26,9 @@ published analyses using zEpid are [here](https://github.com/pzivich/zEpid-repli
 
 ### Delicatessen
 
-<img class="center" src="../assets/images/delicatessen_header.png" alt="deli_logo" width="450">
+<p align="center">
+    <img src="../assets/images/delicatessen_header.png" alt="deli_logo" width="450">
+</p>
 
 I am also the creator of [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for generalized 
 M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
@@ -34,7 +38,9 @@ M-estimation. Some tutorials demonstrating the utility and flexibility are provi
 
 ### MossSpider
 
-<img src="../assets/images/mossspider_header.png" alt="mossspider_logo" width="450">
+<p align="center">
+    <img src="../assets/images/mossspider_header.png" alt="mossspider_logo" width="450">
+</p>
 
 [MossSpider](https://github.com/pzivich/MossSpider) is a Python library for targeted maximum likelihood estimation with
 network-dependent data and stochastic policies. This library is part of my dissertation work.  Details and examples are
