@@ -22,7 +22,7 @@ My website provides a highlighted selection of publications, presentations, and 
 summary of all my previous work, please see my CV.
 
 ------------------
-Pages
+Navigation
 
 - [Publications](pages/publications.html)
 - [Presentations](pages/presentations.html)
