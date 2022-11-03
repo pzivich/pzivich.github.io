@@ -24,9 +24,9 @@ published analyses using zEpid are [here](https://github.com/pzivich/zEpid-repli
 
 ### Delicatessen
 
-<img align="center" src="../assets/images/delicatessen_header.png" alt="deli_logo" width="450">
+<img class="center" src="../assets/images/delicatessen_header.png" alt="deli_logo" width="450">
 
-I ams also the creator of [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for generalized 
+I am also the creator of [delicatessen](https://github.com/pzivich/Delicatessen), a Python library for generalized 
 M-estimation. Some tutorials demonstrating the utility and flexibility are provided 
 [here](https://deli.readthedocs.io/en/latest/Examples.html). An associated pre-print is available on 
 [arXiv](https://arxiv.org/abs/2203.11300).
@@ -34,7 +34,7 @@ M-estimation. Some tutorials demonstrating the utility and flexibility are provi
 
 ### MossSpider
 
-<img src="assets/images/mossspider_header.png" alt="mossspider_logo" width="450">
+<img src="../assets/images/mossspider_header.png" alt="mossspider_logo" width="450">
 
 [MossSpider](https://github.com/pzivich/MossSpider) is a Python library for targeted maximum likelihood estimation with
 network-dependent data and stochastic policies. This library is part of my dissertation work.  Details and examples are
