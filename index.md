@@ -7,6 +7,8 @@ description: Personal site for Paul Zivich
 
 # About
 
+<img align="right" src="assets/images/paul_zivich_min.JPG" alt="Me" width="36">
+
 I am a postdoctoral trainee at University of North Carolina at Chapel Hill in the Institute of Global Health and 
 Infectious Diseases. My interests are in causal inference with potential outcomes, with 
 specialization in the context of networks and contagious outcomes (e.g. infectious diseases, health behaviors, etc.). 
@@ -19,8 +21,6 @@ epidemiology from The Ohio State University.
 
 My website provides a highlighted selection of publications, presentations, and software I have written. For a full 
 summary of all my previous work, please see my CV.
-
-![Me](https://pzivich.github.io/assets/images/paul_zivich_min.JPG)
 
 ------------------
 Pages
