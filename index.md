@@ -22,7 +22,7 @@ My website provides a highlighted selection of publications, presentations, and 
 summary of all my previous work, please see my CV.
 
 ------------------
-## Navigation
+### Navigation
 
 - [Publications](pages/publications.html)
 - [Presentations](pages/presentations.html)
@@ -31,18 +31,18 @@ summary of all my previous work, please see my CV.
 
 ------------------
 
-## Current Research
+### Current Research
 
 The following is a brief summary of my ongoing research projects or current research interests.
 
-### Non-standard causal inference
+#### Non-standard causal inference
 
 Within epidemiology, the assumption of causal consistency, exchangeability, and positivity are often relied on for 
 identification of causal effects. My interests lie in how we can substitute or avoid these assumptions. Examples 
 include proximal causal inference, causal inference with interference, fusion designs, machine learning, and 
 semi-empirical (syntheses of phenomenological and mathematical) modeling. 
 
-### Estimating equations
+#### Estimating equations
 
 A set of powerful tools for statistical analyses are estimating equations. An ongoing interest is in application of 
 these tools for epidemiologic analyses and to ease their adoption by epidemiologists. My main contribution in this 
@@ -52,14 +52,14 @@ application of estimating equations.
 At the Society of Epidemiologic Research 2023 (Portland, OR), I will be leading a workshop titled "ABC's of 
 M-estimation", which will serve as a primer on estimating equations for applied researchers.
 
-### Infectious diseases
+#### Infectious diseases
 
 My applied work focuses on infectious disease epidemiology. Previous and ongoing research have focused on influenza,
 HIV, SARS-CoV-2, and vaccines. My main interest is how observational studies on vaccine effectiveness can be improved.
 
 ------------------
 
-## External links
+### External links
 
 - [GoogleScholar](https://scholar.google.com/citations?user=hbU-gZ0AAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0002-9932-1095)
