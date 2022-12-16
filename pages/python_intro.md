@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Python
+title: Introduction to Python
 description: Introduction to Python.
 ---
 
