@@ -24,10 +24,11 @@ summary of all my previous work, please see my CV.
 ------------------
 ### Navigation
 
-- [Publications](pages/publications.html)
-- [Presentations](pages/presentations.html)
-- [Software](pages/software.html)
-- [CV](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
+- [My Publications](pages/publications.html)
+- [My Presentations](pages/presentations.html)
+- [My Software](pages/software.html)
+- [My CV](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
+- [Python Guide](pages/python_intro.html)
 
 ------------------
 
@@ -40,7 +41,7 @@ The following is a brief summary of my ongoing research projects or current rese
 Within epidemiology, the assumption of causal consistency, exchangeability, and positivity are often relied on for 
 identification of causal effects. My interests lie in how we can substitute or avoid these assumptions. Examples 
 include proximal causal inference, causal inference with interference, fusion designs, machine learning, and 
-semi-empirical (syntheses of phenomenological and mathematical) modeling. 
+semi-empirical modeling. 
 
 #### Estimating equations
 
