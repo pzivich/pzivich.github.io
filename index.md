@@ -8,26 +8,27 @@ description: Personal site for Paul Zivich
 
 <img align="right" src="assets/images/paul_zivich_min.JPG" alt="Me" width="300">
 
-I am a postdoctoral trainee at University of North Carolina at Chapel Hill in the Institute of Global Health and 
-Infectious Diseases. My interests are in causal inference with potential outcomes, with specialization in the context 
-of networks and contagious outcomes (e.g. infectious diseases, health behaviors, etc.). I also focus on computational 
-aspects of epidemiology. My work has ranged from assessing the performance of estimators through simulation studies to 
-collection of contact network data with electronic sensors to application of causal inference in the context of 
-infectious disease and social epidemiology. 
+Paul is a postdoctoral trainee at University of North Carolina at Chapel Hill in the Institute of Global Health and 
+Infectious Diseases. His interests are in causal inference with potential outcomes, with specialization in the context 
+of networks and contagious outcomes (e.g. infectious diseases, health behaviors, etc.). Dr. Zivich also focuses on 
+computational aspects of epidemiology. His work has ranged from assessing the performance of estimators through 
+simulation studies to free and open source software (FOSS) to collection of contact network data with electronic 
+sensors to application of causal inference in the context of infectious disease and social epidemiology. 
 
-I received my PhD in epidemiology from University of North Carolina at Chapel Hill, and my MPH in 
-epidemiology from The Ohio State University. 
-
-My website provides a highlighted selection of publications, presentations, and software I have written. For a full 
-summary of all my previous work, please see my CV.
+Paul received his PhD in epidemiology from University of North Carolina at Chapel Hill, and his MPH in 
+epidemiology from The Ohio State University. He was born, is conducting research, and will die.
 
 ------------------
+
+This website provides a highlighted selection of publications, presentations, and software I have written. For a full 
+summary of all my previous work, please see my CV (linked below).
+
 ### Navigation
 
 - [My Publications](pages/publications.html)
 - [My Presentations](pages/presentations.html)
 - [My Software](pages/software.html)
-- [My CV](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
+- [Curriculum Vitae](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
 - [Python Guide](pages/python_intro.html)
 
 ------------------
