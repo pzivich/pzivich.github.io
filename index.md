@@ -25,10 +25,10 @@ summary of all my previous work, please see my CV (linked below).
 
 ### Navigation
 
-- [My Publications](pages/publications.html)
-- [My Presentations](pages/presentations.html)
-- [My Software](pages/software.html)
 - [Curriculum Vitae](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
+- [Select Publications](pages/publications.html)
+- [Select Presentations](pages/presentations.html)
+- [Software](pages/software.html)
 - [Python Guide](pages/python_intro.html)
 
 ------------------
