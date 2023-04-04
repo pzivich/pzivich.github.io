@@ -41,8 +41,12 @@ The following is a brief summary of my ongoing research projects or current rese
 
 Within epidemiology, the assumption of causal consistency, exchangeability, and positivity are often relied on for 
 identification of causal effects. My interests lie in how we can substitute or avoid these assumptions. Examples 
-include proximal causal inference, causal inference with interference, fusion designs, machine learning, and 
-semi-empirical modeling. 
+include 
+[proximal causal inference](https://academic.oup.com/aje/advance-article/doi/10.1093/aje/kwad077/7098281), 
+[causal inference with interference](https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9525), 
+[fusion designs](https://arxiv.org/abs/2206.04445), 
+[machine learning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8012235/), 
+and [semi-empirical modeling](https://arxiv.org/abs/2303.01572). 
 
 #### Estimating equations
 
@@ -52,12 +56,18 @@ area has been the development of [delicatessen](https://deli.readthedocs.io/en/l
 application of estimating equations.
 
 At the Society of Epidemiologic Research 2023 (Portland, OR), I will be leading a workshop titled "ABC's of 
-M-estimation", which will serve as a primer on estimating equations for applied researchers.
+M-estimation", which will serve as a primer on estimating equations for applied researchers. See details at this
+[link](https://epiresearch.org/annual-meeting/2023-meeting/2023-workshops/).
 
 #### Infectious diseases
 
-My applied work focuses on infectious disease epidemiology. Previous and ongoing research have focused on influenza,
-HIV, SARS-CoV-2, and vaccines. My main interest is how observational studies on vaccine effectiveness can be improved.
+My applied work focuses on infectious disease epidemiology. Previous and ongoing research have focused on 
+influenza,
+[pneumonia](https://link.springer.com/article/10.1186/s41479-018-0055-4),
+HIV, 
+[SARS-CoV-2](https://www.researchprotocols.org/2021/4/e25410), 
+and [vaccines](https://link.springer.com/article/10.1007/s10995-016-2201-z). 
+My main interest is how observational studies on vaccine effectiveness can be improved.
 
 ------------------
 
