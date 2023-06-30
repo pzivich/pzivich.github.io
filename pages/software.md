@@ -5,7 +5,7 @@ description: Open-Source Software Contributions.
 ---
 
 I am a supporter of open-source software and believe it will lead to better and more trustworthy science. Below are 
-some of my open-source contributions.
+some of my open-source software contributions.
 
 ------------------
 
@@ -51,4 +51,5 @@ provided [here](https://mossspider.readthedocs.io/en/latest/).
 ## Open-Source Data Analyses
 
 I am also a supporter of open-source code for scientific publications. I make my analytic code for publications 
-available [here](https://github.com/pzivich/publications-code).
+available [here](https://github.com/pzivich/publications-code). My publication code is also stored long-term 
+on [Zenodo](https://zenodo.org/record/8100058).
