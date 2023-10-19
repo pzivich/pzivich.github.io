@@ -6,7 +6,7 @@ description: Personal site for Paul Zivich
 
 # About
 
-<img align="right" src="assets/images/pzivich_headshot_2023.jpg" alt="Me" width="200">
+<img align="right" src="assets/images/pzivich_headshot_2023.jpg" alt="Me" width="250">
 
 Paul is an assistant professor in the Department of Epidemiology at University of North Carolina at Chapel Hill. 
 His interests are in causal inference with potential outcomes, with specialization in the context of networks and 
