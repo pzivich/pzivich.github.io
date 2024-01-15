@@ -7,7 +7,7 @@ description: Overview of my philosophy
 
 ### Mission Statement
 
-<img align="right" src="assets/images/paul_philosopher.jpg" alt="A photo meant to be humorous. Please do not take as self-serious" width="300">
+<img align="right" src="../assets/images/paul_philosopher.jpg" alt="A photo meant to be humorous. Please do not take as self-serious" width="300">
 
 To better understand the world through kindness, persistence, and curiosity in order to improve it.
 
