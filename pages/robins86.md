@@ -19,12 +19,13 @@ as I (we) read through Robins 1986. (Also writing it out helps me think better)
 
 I will probably do a section every (or every few) day(s)
 Some of my nomenclature: 
-CI – Causal inference
-RR – Risk Ratio
-HWE – Healthy worker effect
-DAG - Directed Acyclic Graph
-LTFU - lost-to-follow-up
-RCT - randomized control trial (overlook the 'control' in some of the discussion, I use for ease of abbrev.)
+* CI – Causal inference
+* RR – Risk Ratio
+* HWE – Healthy worker effect
+* DAG - Directed Acyclic Graph
+* LTFU - lost-to-follow-up
+* RCT - randomized control trial (overlook the 'control' in some of the discussion, I use for ease of abbrev.)
+
 (going to regret not putting more here)
 
 
