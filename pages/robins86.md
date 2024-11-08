@@ -34,7 +34,7 @@ After 3 pages of vocab and the section it is defined in, we start with the intro
 Robins begins with the difficulty of defining an appropriate comparison for a working population, 
 since an unexposed* working pop is ‘healthier’ than the general pop
 
-<img align="right" src="../assets/images/robins1986/s1_i1.png" alt="." width="300">
+![Screenshot1](../assets/images/robins1986/s1_i1.png)
 
 I think most importantly is that Robins sets out to identify ‘small’ effects since most large occupational exposures 
 already have been discovered. I think this stands in stark contrast to claims about CI being less appropriate for small 
