@@ -747,3 +747,113 @@ Happy Halloween! Let's discuss the spOoOoOoOokiest of things; time-varying confo
 This is the penultimate section and returns to the approach described in the intro of addressing the healthy worker 
 effect via latent period assumptions
 
+![Screenshot1](../assets/images/robins1986/s11_i1.png)
+
+It looks like the quantity estimated is a causal parameter under a certain set of assumptions that we will learn in the 
+following sections. Where (G1) is min(latent) > 10yr, (G2) is healthy worker <10 after leaving work
+
+![Screenshot2](../assets/images/robins1986/s11_i2.png)
+
+But we also need an additional assumption for the approach to work: (G3) employment history has no effect on $Y$ 
+controlling for exposure history
+
+Going slightly out of order from the paper, Robins goes through (G1). A first version that stipulates no time-varying 
+confounding is presented, but Robins gives us a second that allows for time-varying confounding and proceeds under 
+that scenario
+
+![Screenshot3](../assets/images/robins1986/s11_i3.png)
+
+Given some definitions, Robins then presents a very detailed and thorough proof of Lemma 11.1
+
+For (G2), we assume deterministic outcomes, such that there are 'doomed' people for $Y$. Then we get the formal 
+definition
+
+![Screenshot4](../assets/images/robins1986/s11_i4.png)
+
+![Screenshot5](../assets/images/robins1986/s11_i5.png)
+
+Later on (but I'm putting it here), we get a substantive description of what this means. We are saying $L(t)$ is not 
+related to $Y$ (since we already know $L(t-1) \rightarrow A(t)$). Robins puts this in the context of lung cancer, and 
+then shows the problem of the assumption with smoking ($U$).
+
+![Screenshot6](../assets/images/robins1986/s11_i6.png)
+
+Then Robins draws out the tree graphs under (G1) and (G2). By contrasting Gilbert's estimand with the causal tree 
+graphs and g-formula, we then get to see why we need to have assumption (G3)
+
+![Screenshot7](../assets/images/robins1986/s11_i7.png)
+
+Next we are tasked with the problem of assessing the validity of (G1)-(G3). We can do that by comparing $A=1$ versus 
+$A=0$ at $T=t$, for those with $A=1$ at $T=t-1$. We then get the algorithm for assessing the assumptions
+
+![Screenshot8](../assets/images/robins1986/s11_i8.png)
+
+However, the algorithms are probably not going to work well in-practice. Sparsity of data, especially if measured at 
+fine-grained time intervals, may preclude being able to adequately assess. We *could* use models but then we need to 
+assume our models are correct (unlikely)
+
+We then get an example using the arsenic -> lung cancer / mortality example. In the example Robins finds that an effect 
+of arsenic on lung cancer can be hidden by using an exposure lag of 15 years
+
+![Screenshot9](../assets/images/robins1986/s11_i9.png)
+
+![Screenshot10](../assets/images/robins1986/s11_i10.png)
+
+To work through explanations for the observations we are given a case of 2 individuals and 4 explanations for the 
+divergence. 3rd and 4th are ruled out, which leaves us with off-work is a time-varying confounder OR healthy worker 
+effect
+
+![Screenshot11](../assets/images/robins1986/s11_i11.png)
+
+So then we assume that it is a result of only explanation 2. Based on this, Robins states there is evidence of the 
+healthy worker effect persisting (but that he doesn't believe it to be the full story for the divergence)
+
+![Screenshot12](../assets/images/robins1986/s11_i12.png)
+
+That concludes Section 11. Next time is Section 12, which is the grand finale
+
+## 12: EVERYTHING ENDS
+
+We are at the end friends. The last section of Robins 1986.
+
+![Screenshot1](../assets/images/robins1986/s12_i1.png)
+
+We start with censoring and competing risks. I don't like how this section starts since it seems to imply we can handle 
+those issues in the same way
+
+If we treat competing risks as 'censoring', we are estimating the effect in a world where we can prevent all competing 
+events...
+
+![Screenshot2](../assets/images/robins1986/s12_i2.png)
+
+Robins does give us this weird world we are estimating when we treat competing risks as censored
+
+![Screenshot3](../assets/images/robins1986/s12_i3.png)
+
+However, you don't have to make this estimand. You can do the parametric g-formula machinery with two outcome models 
+(one for competing risk, one for outcome). Simulate under the intervention. Then analyze that simulated data using an 
+appropriate estimator (e.g. Aalen-Johansen)
+
+Next is what we can learn with and without data on cigarette smoking. Again we are in a 'world' where only lung cancer 
+deaths occur.
+
+![Screenshot4](../assets/images/robins1986/s12_i4.png)
+
+Unfortunately, there isn't much to do in the setting of competing risks when you have an unobserved confounder for both 
+types of outcomes. This holds true for estimation
+
+![Screenshot5](../assets/images/robins1986/s12_i5.png)
+
+We can do some hypothesis testing though. However, we can't make progress with confounding (particularly time-varying 
+confounding which is likely in the example)
+
+![Screenshot6](../assets/images/robins1986/s12_i6.png)
+
+The final subsection is extension to other studies. The results can be extended to many other studies where 
+time-varying confounding can occur. Robins provides several examples outside of occupational health research
+
+![Screenshot7](../assets/images/robins1986/s12_i7.png)
+
+If you've made it this far and want some additional g-formula papers, here are some suggestions on what to read next
+
+That concludes Robins 1986 (aside from the Appendix, but that's more of a Scouring of the Shire anyways)
