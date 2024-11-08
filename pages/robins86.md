@@ -44,7 +44,7 @@ effects or sensitivity analyses (E-values).
 To avoid the HWE, workers with different levels of exposure are compared. However, the standard methods of looking at 
 cumulative exposures can mask those small effects Robins is interested in.
 
-<img align="right" src="../assets/images/robins1986/s1_i2.png" alt="." width="300">
+![Screenshot2](../assets/images/robins1986/s1_i2.png)
 
 To relate to the larger literature, he mentions this paper by Gilbert. This approach is later said to be commonly used 
 in occupational epi (at the time).
@@ -52,14 +52,15 @@ in occupational epi (at the time).
 Gilbert 1982 talks about occupational factors at the Hanford nuclear site on mortality. Gilbert says that differences 
 in mortality between employed and terminated works are sources of bias due to the healthy worker effect.
 
-<img align="right" src="../assets/images/robins1986/s1_i3.png" alt="." width="300">
-<img align="right" src="../assets/images/robins1986/s1_i4.png" alt="." width="300">
+![Screenshot1](../assets/images/robins1986/s1_i3.png)
+
+![Screenshot1](../assets/images/robins1986/s1_i4.png)
 
 To address this, workers were considered as ‘employed’ up to 3 years after their termination. Gilbert’s approach works 
 as a sort of ‘wash-out’ period for occupational exposures. However, Robins says this wash-out approach doesn’t work and 
 we will see this in occupational exposure to arsenic. He gives us a teaser (so we get through the following 100+ pages).
 
-<img align="right" src="../assets/images/robins1986/s1_i5.png" alt="." width="300">
+![Screenshot1](../assets/images/robins1986/s1_i5.png)
 
 Occupational arsenic has been decreased post-1935 but lung cancer has remained elevated among copper smelter workers. 
 This could be due to (1) remaining arsenic exposures, or (2) elevated cigarette smoking among workers. Using the 
@@ -67,12 +68,12 @@ lagging approach, cumulative exposure to arsenic has no association with lung ca
 proposed approach does find elevated lung cancer mortality. He conjectures that it is due to smokers leaving employment 
 more than non-smokers. He can’t directly tell us (so a bit of a letdown).
 
-<img align="right" src="../assets/images/robins1986/s1_i6.png" alt="." width="300">
+![Screenshot1](../assets/images/robins1986/s1_i6.png)
 
 Robins then says that using the proposed method is necessary because of reduced occupational exposures leading to 
 smaller effects (as indicated by RR).
 
-<img align="right" src="../assets/images/robins1986/s1_i7.png" alt="." width="300">
+![Screenshot1](../assets/images/robins1986/s1_i7.png)
 
 Then he hit us with the succinct purpose of the paper; when do we get to give causal interpretations for time-varying 
 exposures with observational data. Robins then outlines what each section will discuss. I won’t repeat / spoil it 
