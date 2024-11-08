@@ -214,7 +214,8 @@ can estimate mortality. The trick for translating obs. data into this is to dete
 protocol.
 
 A related issue (one-sample rather than the two-sample problem Robins is addressing) is when to consider someone as 
-censored (LTFU). @leskocar  et al. has a nice discussion of when we should consider someone as censored.
+censored (LTFU). [Lesko et al.](https://pubmed.ncbi.nlm.nih.gov/29020256/) have a nice discussion of when we should 
+consider someone as censored.
 
 For Robins’ example date of termination of employment works well as the time of deviation from protocol. He also tells 
 us a similar exposure protocol end date for the mining industry.
@@ -383,7 +384,8 @@ repeat). I will highlight the last paragraph though.
 
 ![Screenshot15](../assets/images/robins1986/s3_i15.png)
 
-We end with a note on generalizability / transportability. @leskocar et al. have a great paper on this as well
+We end with a note on generalizability / transportability. [Lesko et al.](https://pubmed.ncbi.nlm.nih.gov/28346267/)
+have a great paper on this as well
 
 ![Screenshot16](../assets/images/robins1986/s3_i16.png)
 
