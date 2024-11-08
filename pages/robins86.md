@@ -286,3 +286,149 @@ when does obs. data reflect a RCT (or rather under what assumptions)
 
 ## 3. GRAPHS FOR CAUSAL INFERENCE
 
+This section tells us the theoretical framework for when causality can be inferred from obs. data (under the FFR-CISTG 
+model) We start with the process.
+
+![Screenshot1](../assets/images/robins1986/s3_i1.png)
+
+![Screenshot2](../assets/images/robins1986/s3_i2.png)
+
+First, we draw a tree to represent the data we get to see (MPISTG)
+
+Next, we define the causal parameters through a tree graph (MCISTG)
+
+Next, we determine the causal parameters of interest
+
+Lastly, we use an algorithm to estimate causal parameters from a final tree graph
+
+Luckily for me, we start with informal descriptions. Here we are asked to consider two studies, much like the quick 
+examples I wrote in Python in the previous section. We jump into drawing the tree graphs
+
+![Screenshot3](../assets/images/robins1986/s3_i3.png)
+
+Fig 3.1-3.2 are STG for our point exposure study. Open circles are follow-up times (but omitted at final time), splits 
+in the graph distinguish exposures at the circle. For 3.1 the population beings with 300 of which 100 are $A=1$. 
+20 survived until $t_2$.
+
+![Screenshot4](../assets/images/robins1986/s3_i4.png)
+
+![Screenshot5](../assets/images/robins1986/s3_i5.png)
+
+![Screenshot6](../assets/images/robins1986/s3_i6.png)
+
+The STG in 3.3 follow a similar interpretation, but we also have more paths. Below is a highlight pattern of the figure 
+to match the text descriptions. As shown, 4 periods of follow-up and only two variables still makes this complicated to 
+draw
+
+![Screenshot7](../assets/images/robins1986/s3_i7.png)
+
+![Screenshot8](../assets/images/robins1986/s3_i8.png)
+
+Robins goes on to distinguish between 3.3 and 3.4, with 3.4 being characterized as ‘finer’ as opposed to ‘coarse’. The 
+difference is where the splits occur (something I missed when reading at first)
+
+Honestly not sure I follow what the distinction really means ... (Robins assures me that the discussion of causal 
+parameters will make this clear)
+
+![Screenshot9](../assets/images/robins1986/s3_i9.png)
+
+With that, we are on to identifying the causal parameters of the study. We are extending Rubin’s framework to 
+time-varying exposures. We do require the special case of deterministic potential outcomes at this point (not required 
+by Rubin’s system)
+
+![Screenshot10](../assets/images/robins1986/s3_i10.png)
+
+This is fine for Rubin's system since deterministic potential outcomes are a special case of stochastic potential
+outcomes (i.e. deterministic are a subset of stochastic)
+
+We have 3 subtasks: define treatment, define the MCISTG, and the causal parameter of the study
+
+Treatment is a variable that a particular individual could have been given/exposed to at time t. Robins says that 
+treatment could have been randomized (at least in conception) is necessary for causal inference.
+
+There is lots of discussion on this point, but I think it is worth highlighting since this is a major deviation between 
+Pearl’s NPSEM and Robins’ FFR-CISTG. Especially since this distinction occurs before we have any discussion of 
+mediation.
+
+In the stairs example, we also get non-random (or structural) violations of the positivity assumption. This also 
+demonstrates Robins’ previous point but I think restricting the population of interest is a solution to positivity but 
+not always to causal consistency.
+
+![Screenshot11](../assets/images/robins1986/s3_i11.png)
+
+The non-existence of any non-random positivity violations is necessary to link the observed STG to the STG meant to 
+define the causal parameters. I think about this as the observed data allows us to say something regarding a potential 
+world.
+
+On to the next subtask: defining the causal parameters
+
+![Screenshot12](../assets/images/robins1986/s3_i12.png)
+
+The algorithm to define treatments relies on lines splitting at the left-side (green) of the circle rather than the 
+right-side (red). Where the line splits distinguish between the two highlighted statements (which answers my previous 
+question)
+
+![Screenshot13](../assets/images/robins1986/s3_i13.png)
+
+The final sentence is interesting to me, because we already have the concept of mediation being introduced. It 
+highlights the link between time-varying exposures (that are the same exposure just at different times) and mediation
+
+Finally we get our definition of what the causal parameter is. It is the difference between two proposed 
+'generalized treatment plans'. I am going to try to keep the final parts in mind for when we get to section 4.
+
+![Screenshot14](../assets/images/robins1986/s3_i14.png)
+
+Task 3: decide what causal parameters we are actually interested in. Robins gives several examples (which I won’t 
+repeat). I will highlight the last paragraph though.
+
+![Screenshot15](../assets/images/robins1986/s3_i15.png)
+
+We end with a note on generalizability / transportability. @leskocar et al. have a great paper on this as well
+
+![Screenshot16](../assets/images/robins1986/s3_i16.png)
+
+Finally, we determine what we can estimate given the observed data. Going back to ‘coarse’ we can estimate the MCISTG 
+of any STG that is $\ge$ coarse for a valid generalized treatment plan
+
+![Screenshot17](../assets/images/robins1986/s3_i17.png)
+
+For the ‘fully randomized’ STG (FR-MCISTG) we need that there are no common causes (i.e. no confounding) of the 
+exposure at t and the outcome. We now have how obs. data can be seen as a stratified RCT where Dr. Nature forgot to 
+give us the stratification.
+
+Now we get g-computation and how to do it! Calculate the conditional probabilities for survival then take the summation 
+of these probabilities for the treatment plan of interest.
+
+![Screenshot18](../assets/images/robins1986/s3_i18.png)
+
+Easy! (See [Snowden et al. 2011](https://pubmed.ncbi.nlm.nih.gov/21415029/) for an easy algorithm for point-exposures). 
+However, multiple time-points makes it difficult (if not impossible). Luckily we have a Monte Carlo extension (to be 
+seen in section 4).
+
+Unfortunately we can never ensure that our MCISTG is a FR-MCISTG. However saying we can’t possibly verify this ever 
+doesn’t justify not conducting any observational studies Robins gives us a formal justification with regards to what 
+we are assuming
+
+![Screenshot19](../assets/images/robins1986/s3_i19.png)
+
+We also have a remark on whether we can apply FR-MCISTG to stochastic potential outcomes. We just have to ignore that 
+our trial makes a slight mix-up wrt time (i.e. we either know something about the future or the randomization moves 
+back in time).
+
+![Screenshot20](../assets/images/robins1986/s3_i20.png)
+
+I am going to skip over some practical points that Robins discusses in this thread (but you should read section 3D).
+
+In 3E further discussion of the difference between 3.3 and 3.4. I am also going to leave this out for practical 
+purposes. Briefly, we see further examples / problems of not being able to draw the observed STG with splits within 
+the circles
+
+At the end of s3F there is a brief tangent on a Bayesian view which isn’t adopted in this paper.
+[Keil et al. 2017](https://europepmc.org/article/pmc/5790647) have a good discussion of a Bayesian g-formula
+
+Next time Robins gives us a formalization of section 3 (I have a feeling it will be a long thread)
+
+## 4. FORMAL CAUSAL INFERENCE (ATTIRE REQUESTED)
+
+Math on twitter dot com? Should be fine /s (ed: it is now with MathJax on the site). Shorter thread though
+
