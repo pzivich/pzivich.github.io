@@ -591,7 +591,7 @@ protocol (and then returned to it at $t_2$)
 
 ![Screenshot5](../assets/images/robins1986/s7_i5.png)
 
-The section ends with the note that we can see if the observed G_B is compatible with a proposed randomization scheme. 
+The section ends with the note that we can see if the observed $G_B$ is compatible with a proposed randomization scheme. 
 Section 8 goes on to discuss this and when standard analyses (ignoring time-vary confounding) are valid.
 
 ## 8: WHEN CAN I IGNORE THE METHODOLOGISTS
@@ -599,5 +599,72 @@ Section 8 goes on to discuss this and when standard analyses (ignoring time-vary
 Section 8 discusses when standard analytic approaches are fine (aka time-varying confounding isn't as issue for us). 
 Keeping with the occupation theme, it is presented in the context of when employment history can be ignored.
 
+![Screenshot1](../assets/images/robins1986/s8_i1.png)
 
+First we go through the simpler case of point-exposures (ie only treatment assignment at baseline matters). Note that 
+while we get something similar to the modern definition, I don't think the differentiation from colliders is quite 
+there yet (in the language)
+
+![Screenshot2](../assets/images/robins1986/s8_i2.png)
+
+![Screenshot3](../assets/images/robins1986/s8_i3.png)
+
+Generalization of the point-exposure definition of confounding to time-varying exposures isn't direct
+
+![Screenshot4](../assets/images/robins1986/s8_i4.png)
+
+To generalize confounding to time-varying settings, Robins first sets up the conditions for $L$ to be a predictor of the 
+outcome and exposure (at baseline and varying exposures over time)
+
+Again, I think tools like DAG/SWIG are a massive improvement (or an enhancement) to definitions like this. It clarifies 
+colliders and gives a way to *a priori* specify the causal model. I think it is preferable than calculating to 
+coefficient between various possible $L$ and $Y$
+
+But back to the main question posed by this section, when can be _correctly_ ignore time-varying confounding. We get 
+two sufficient conditions: (1) $L$ does not predict exposure, (2) $L$ does not predict death
+
+![Screenshot5](../assets/images/robins1986/s8_i5.png)
+
+![Screenshot6](../assets/images/robins1986/s8_i6.png)
+
+Again, we can easily show this in causal diagrams by lack of an arrow between $L_{t-1} \rightarrow A_{t}$ for the 
+1st condition or $L_{t-1} \rightarrow Y(t)$ for the 2nd condition. So if there exists no $L$ such that both of the 
+above aren't true, you can safely ignore me
+
+The next question is when can we ignore the g-methods and use standard approaches for adjustment of time-varying 
+confounding
+
+![Screenshot7](../assets/images/robins1986/s8_i7.png)
+
+This is valid when previous exposure does not predict future $L$ (i.e., $A_{t-1} \not\rightarrow L_{t}$). 
+Another way of phrasing is that $A$ effects $Y$ not through $L$.
+
+That's great and all, but when can be *completely* ignore $L$ for the null test? Well now we only need 
+both $L \not\rightarrow A$ and $A_{t-1} \not\rightarrow L_{t}$ when $L$ is predictive of $Y$.
+
+![Screenshot8](../assets/images/robins1986/s8_i8.png)
+
+Now that is all a lot of arrows and letters, so Section 8 closes with an example regarding cigarette smoking history. 
+I think it highlights the implausible nature of the previous assumptions that allow you to ignore $L$ (and my methods 
+concerns)
+
+![Screenshot9](../assets/images/robins1986/s8_i9.png)
+
+The example provided seems to indicate the difficulty of making any of these assumptions in a defensible way. Robins 
+goes through these in explicit details
+
+![Screenshot10](../assets/images/robins1986/s8_i10.png)
+
+Another worthwhile mention from parts I didn't highlight in this thread: 'faithfulness' outside of DAGs
+
+![Screenshot11](../assets/images/robins1986/s8_i11.png)
+
+## 9: CASE-CONTROLS
+
+Back to the irregularly scheduled programming. Honestly, I the more modern methods I have learned, the more confused I 
+have become regarding causal inference from case-control studies. Hopefully I will gain some clarity by the end.
+
+The first part seems to talk about what I wonder (time-varying confounding). The points (particularly the highlights 
+in the last screenshot) seem to be major problems for causal inference with case-controls. However these are when the 
+sampling fractions are *unknown*
 
