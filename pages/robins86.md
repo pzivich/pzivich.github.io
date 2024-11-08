@@ -715,4 +715,35 @@ resulting from model misspecification
 
 ![Screenshot1](../assets/images/robins1986/s10_i1.png)
 
+Specifying parametric models is hard. The way I have thought about it lately is to specify the most flexible model as 
+possible and use that. Fill it with as many interaction terms and splines as possible given the data. That way I cover 
+as many possible densities as I can
+
+Avoiding hard constraints on model misspecification also seems to be the main promises of machine learning to me, allow 
+for flexible relationships between the variables that minimizes what I need to specify directly. But there is still 
+lots to do on this front
+
+Check out my [paper](https://pubmed.ncbi.nlm.nih.gov/33591058/) on cross-fitting with machine learning if you want to 
+read more on using machine learning for estimation (at least I made it to section 10 without any self-promotion). 
+There are also a lot of other great papers referenced there
+
+The next example is what I think is along the lines of measurement error, or coarsening. I use the term coarsening 
+because we have $L =$ {keep working, laid off, quit}, but we only use $L^* =$ {keep working, stop working}
+
+![Screenshot2](../assets/images/robins1986/s10_i2.png)
+
+That collapsing is sometimes called coarsening (first I understood the term was in reading Tsiatis's semiparametric 
+theory book)
+
+![Screenshot3](../assets/images/robins1986/s10_i3.png)
+
+And that is actually it for section 10 (short one I know). Next section is a bit longer and returns to the other 
+proposed approach way back in the beginning. We will see why it doesn't work
+
+## 11: CONTROL VIA MIN(LATENT PERIOD)
+
+Happy Halloween! Let's discuss the spOoOoOoOokiest of things; time-varying confounding. 
+
+This is the penultimate section and returns to the approach described in the intro of addressing the healthy worker 
+effect via latent period assumptions
 
