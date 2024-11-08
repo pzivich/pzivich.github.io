@@ -285,7 +285,7 @@ at certain times (ie the stratified survival curves are allowed to cross).
 We end this section with knowledge that we don’t need the exposure protocol to analyze our RCT. Now the question is 
 when does obs. data reflect a RCT (or rather under what assumptions)
 
-## 3. GRAPHS FOR CAUSAL INFERENCE
+## 3: GRAPHS FOR CAUSAL INFERENCE
 
 This section tells us the theoretical framework for when causality can be inferred from obs. data (under the FFR-CISTG 
 model) We start with the process.
@@ -430,7 +430,85 @@ At the end of s3F there is a brief tangent on a Bayesian view which isn’t adop
 
 Next time Robins gives us a formalization of section 3 (I have a feeling it will be a long thread)
 
-## 4. FORMAL CAUSAL INFERENCE (ATTIRE REQUESTED)
+## 4: FORMAL CAUSAL INFERENCE (ATTIRE REQUESTED)
 
 Math on twitter dot com? Should be fine /s (ed: it is now with MathJax on the site). Shorter thread though
 
+![Screenshot1](../assets/images/robins1986/s4_i1.png)
+
+In Section 4.C we get a quirk of the deterministic results. Essentially within the deterministic system that nature
+created, the exposure pattern between $t_0$ and the end of the study has been 'set', no matter when outcomes occur. 
+This is used to extend to competing risks.
+
+![Screenshot2](../assets/images/robins1986/s4_i2.png)
+
+Here we get the written version of g-computation from Section 3. There is also the important point that g-comp can be 
+applied to non-causal scenarios. However, when we do this there is less solid of interpretational foundations for the 
+estimate
+
+![Screenshot3](../assets/images/robins1986/s4_i3.png)
+
+The assumptions are to link reality to the math formula. Without the assumptions about what happens in the world, the 
+math is just a calculation exercise.
+
+However, evaluating equation 4.7 is difficult for anything besides a small number of follow-up times. Robins proposes 
+using Monte Carlo instead
+
+![Screenshot4](../assets/images/robins1986/s4_i4.png)
+
+Robins concludes with an algorithm to reduce the complexity of the procedure. The procedure generates a coarser STG. 
+While I don't collapse the branches in my animation example, you can kinda see how non-time-varying exposures are a 
+special case of a coarse STG
+
+![Screenshot5](../assets/images/robins1986/s4_i5.png)
+
+## 5: ESTIMATION
+
+After a little hiatus, back to discussing Robins 1986 (with a new keyboard)! Robins starts by reminding us (me) that 
+we are assuming the super-population model for inference.
+
+![Screenshot1](../assets/images/robins1986/s5_i1.png)
+
+If we had an infinite $n$ in our study, we could use NPMLE. However, time-varying exposures have a particular large 
+number of possible intervention plans. We probably don't have anywhere near enough obs to consider all the possible 
+plans
+
+![Screenshot2](../assets/images/robins1986/s5_i2.png)
+
+Instead we use a parametric projection of the time-varying variables. We hope that the parametric projection is 
+sufficiently flexible to approximate the true density function (it is why it is best to include as many splines and 
+interaction terms as feasible)
+
+We now move to the arsenic example to connect the method discussed in the previous section
+
+![Screenshot3](../assets/images/robins1986/s5_i3.png)
+
+![Screenshot4](../assets/images/robins1986/s5_i4.png)
+
+![Screenshot5](../assets/images/robins1986/s5_i5.png)
+
+To estimate the parameters for the equations for the g-formula. Robins uses conditional logistic regression for the 
+parameters
+
+![Screenshot6](../assets/images/robins1986/s5_i6.png)
+
+![Screenshot7](../assets/images/robins1986/s5_i7.png)
+
+With those estimated parameters, we can then use the Monte Carlo procedure previously described to estimate potential 
+outcomes under the treatment plans of interest
+
+![Screenshot8](../assets/images/robins1986/s5_i8.png)
+
+Further mention of our models being correctly specified, and the recommendation to use bootstrapping for inference
+
+![Screenshot9](../assets/images/robins1986/s5_i9.png)
+
+Section 5 closes with further discussion of the issue of parametric model specification. The upside (and teaser for the 
+next section) is that nonparametric null hypothesis testing is possible
+
+![Screenshot10](../assets/images/robins1986/s5_i10.png)
+
+## 6: NONPARAMETRIC TESTS
+
+Section 6 goes through the sharp null hypothesis (that no effect of exposure on any individual). Note that this is 
+weaker than the null of no _average_ effect in the population
