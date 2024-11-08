@@ -137,8 +137,8 @@ df['Y'] = (df['A_1']*df['A_2']*df['y_a1a1'] +
            (1-df['A_1'])*(1-df['A_2'])*df['y_a0a0']) 
 ```
 
-Since A is randomized at baseline (t_1), we can easily estimate Pr(Y(a_1)) with Pr(Y|A_1=a_1) where Y(a_1) is the 
-potential outcome under a_1. In my example Pr^(Y|A_1=1) / Pr^(Y|A_1=0) is
+Since A is randomized at baseline ($t_1$), we can easily estimate $\Pr(Y(a_1))$ with $\Pr(Y \mid A_1=a_1)$ where 
+$Y(a_1)$ is the potential outcome under $a_1$. In my example $\hat{\Pr}(Y|A_1=1) / \hat{\Pr}(Y|A_1=0)$ is
 
 ```python
 # Calculating Risk Ratio
