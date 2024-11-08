@@ -28,13 +28,17 @@ summary of all my previous work, please see my CV (linked below).
 - [Curriculum Vitae](https://pzivich.github.io/assets/cv/pzivich_CV.pdf)
 - [Select Publications](pages/publications.html)
 - [Select Presentations](pages/presentations.html)
-- [Robins 1986](pages/robins86.html)
 - [Software](pages/software.html)
 - [Python Guide](pages/python_intro.html)
 - [My Philosophy](pages/philosophy.html)
 
 To adhere to the FAIR (Findability, Accessibility, Interoperability, and Reuse) principles for my research software, my
 publication code is available long-term on [Zenodo](https://zenodo.org/record/8100058).
+
+## Explainers
+
+- [Robins 1986](pages/robins86.html)
+- [Tree Graphs](pages/treegraphs.html)
 
 ------------------
 
