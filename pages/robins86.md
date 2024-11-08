@@ -512,3 +512,68 @@ next section) is that nonparametric null hypothesis testing is possible
 
 Section 6 goes through the sharp null hypothesis (that no effect of exposure on any individual). Note that this is 
 weaker than the null of no _average_ effect in the population
+
+![Screenshot1](../assets/images/robins1986/s6_i1.png)
+
+Another way of thinking about this is if there is no individual causal effect (ICE) then there must be no average 
+causal effect (ACE). The reverse (no ACE then no ICE) is not guaranteed.
+
+Robins provides us with the G-null hypothesis as a means of assessing the sharp null (the g-null is that call causal 
+parameters are 0)
+
+![Screenshot2](../assets/images/robins1986/s6_i2.png)
+
+![Screenshot3](../assets/images/robins1986/s6_i3.png)
+
+![Screenshot4](../assets/images/robins1986/s6_i4.png)
+
+We are given a more complicated procedure for evaluation and a simpler algorithm (the simpler algorithm has PASCAL 
+code which I am curious if anyone still has). Languages that disappear do make me worry a bit about my own work 
+though... 
+
+![Screenshot5](../assets/images/robins1986/s6_i5.png)
+
+![Screenshot6](../assets/images/robins1986/s6_i6.png)
+
+Then we are given some warnings about sparse data. Sparsity can occur through the exposure levels 
+($A = \{0, 1, 2, ... a\}$) or in follow-up time ($t=\{0, 1, 2, ...\tau\}$)
+
+![Screenshot7](../assets/images/robins1986/s6_i7.png)
+
+However, not all G-null's were made the same. When models are introduced for the nuisance functions we can run into 
+problems. Specifically, we can fail to reject at the nominal rate
+
+![Screenshot8](../assets/images/robins1986/s6_i8.png)
+
+We are given a list of potential solutions to address the power issue.
+
+We are now given the problem of defining time zero (particularly for the G-null). The more epidemiology I have learned, 
+the more I realize how difficult (and important) defining time zero can be for observational studies (ed: this remains
+true).
+
+![Screenshot9](../assets/images/robins1986/s6_i9.png)
+
+![Screenshot10](../assets/images/robins1986/s6_i10.png)
+
+Section 6 concludes with the applied example for the G-null hypothesis. I think Robins' points about assumptions being 
+slightly wrong and that large sample sizes will reject with near certainty are important
+
+![Screenshot11](../assets/images/robins1986/s6_i11.png)
+
+![Screenshot12](../assets/images/robins1986/s6_i12.png)
+
+## 7: MORE ASSUMPTIONS
+
+Section 7 adds some additional a priori assumptions that can allow us to estimate in the context where we don't have 
+all necessary confounders.
+
+We have the beautifully named: "A-complete Stage 0 PL-sufficient reduced graph of R CISTG A"
+
+![Screenshot1](../assets/images/robins1986/s7_i1.png)
+
+We start with some rules for reducing graph $G_A$ to a counterpart $G_B$. Honestly the language in this section isn't 
+clear to me despite reading it several times...
+
+![Screenshot2](../assets/images/robins1986/s7_i2.png)
+
+
