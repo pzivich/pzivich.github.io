@@ -576,4 +576,28 @@ clear to me despite reading it several times...
 
 ![Screenshot2](../assets/images/robins1986/s7_i2.png)
 
+I do think the graphs help a bit though. To me it seems we are narrowing the space of the problem. We are going from 
+multiple divisions at $t_1$ and $t_2$ to only considering the divisions at $t_2$ for a single branch. The reduced STG 
+is a single branch
+
+![Screenshot3](../assets/images/robins1986/s7_i3.png)
+
+![Screenshot4](../assets/images/robins1986/s7_i4.png)
+
+The purpose of our graph reduction is that $G_A$ is identifiable given $G_B$ and the listed assumption $R$
+
+So we can think about G_B as either everyone being set to the same value at $t_1$ OR everyone was off their assigned 
+protocol (and then returned to it at $t_2$)
+
+![Screenshot5](../assets/images/robins1986/s7_i5.png)
+
+The section ends with the note that we can see if the observed G_B is compatible with a proposed randomization scheme. 
+Section 8 goes on to discuss this and when standard analyses (ignoring time-vary confounding) are valid.
+
+## 8: WHEN CAN I IGNORE THE METHODOLOGISTS
+
+Section 8 discusses when standard analytic approaches are fine (aka time-varying confounding isn't as issue for us). 
+Keeping with the occupation theme, it is presented in the context of when employment history can be ignored.
+
+
 
