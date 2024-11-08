@@ -668,3 +668,51 @@ The first part seems to talk about what I wonder (time-varying confounding). The
 in the last screenshot) seem to be major problems for causal inference with case-controls. However these are when the 
 sampling fractions are *unknown*
 
+![Screenshot1](../assets/images/robins1986/s9_i1.png)
+
+![Screenshot2](../assets/images/robins1986/s9_i2.png)
+
+The next example has an interesting result for merging multiple case-control studies. Under this, we can deal with 
+time-varying confounders
+
+![Screenshot3](../assets/images/robins1986/s9_i3.png)
+
+But merging multiple case-control studies doesn't seem like it can save us. However, the following sentence after 
+example 3 seems to negate that?...
+
+The next subsection starts with an optimistic view that we can construct a nonparam G-null test from case-control. 
+So it looks like I am still missing some pieces in the previous section (let me know if you do because I still don't 
+follow are re-reading it several times).
+
+![Screenshot4](../assets/images/robins1986/s9_i4.png)
+
+So it looks like we have a hopefully algorithm for causal inference from case-control data in the presence of the 
+healthy-worker effect (time-varying confounding)
+
+However, the title of this subsection seems to indicate my previous statement is too hopefully (I may be getting 
+case-control-induced whiplash). The construction of most case-control studies at the time (and maybe today?) are not 
+designed to work with the proposed algorithm
+
+![Screenshot5](../assets/images/robins1986/s9_i5.png)
+
+We get an outline of 3 strategies for selection. Different from the ones I was taught in my programs (since the focus 
+was more on what measure the case-control OR maps to). We also get a secret, bonus 4th strategy
+
+![Screenshot6](../assets/images/robins1986/s9_i6.png)
+
+Unfortunately, all 4 of the approaches seem to make (probably) implausible assumptions. The 4th strategy has the 
+weakest, but it still has some problems dealing with time-varying confounding
+
+![Screenshot7](../assets/images/robins1986/s9_i7.png)
+
+TLDR: I should read more papers on causal inference and case-control studies (I know there is a chapter in one of the 
+Targeted Learning books, but haven't gotten to it yet).
+
+## 10: MODELS AND STUFF WE SAY ABOUT THEM
+
+Section 10 goes through what is termed "artificial healthy worker effect". The two provided examples focus on it 
+resulting from model misspecification
+
+![Screenshot1](../assets/images/robins1986/s10_i1.png)
+
+
