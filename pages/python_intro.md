@@ -9,13 +9,13 @@ can view slides and arguments from my presentation at 43rd Annual Conference of 
 Biostatistics at this [LINK](https://github.com/pzivich/Presentations/blob/master/ISCB43/Zivich_Python_ISCB43.pdf).
 
 Despite Python being a powerhouse in data science, I've found less adoption among epidemiologists and biostatisticians.
-In case you wanted to get started with Python, the following is the setup I use on all my computers. This guide should
-get you started with coding in Python
+In case you wanted to get started with Python (or you are me from the future and setting up Python on a new device), 
+the following is the setup I use on all my computers. This guide should get you started with coding in Python
 
 # Installation
 
 While you can install Python from python.org, there is a better way. Here, we will use `pyenv`, which is a manager that 
-allows us to easily use multiple versions of Python (I regularly switch between 3.6, 3.7, 3.8, 3.9, 3.10). 
+allows us to easily use multiple versions of Python. 
 
 For detailed instructions on how to install `pyenv` you can view the guide for Mac/Linux at 
 [RealPython](https://realpython.com/intro-to-pyenv/) or the `pyenv-win` 
@@ -74,17 +74,17 @@ python -m pip install numpy
 To install multiple packages at once
 
 ```commandline
-python -m pip install --upgrade pip
+python -m pip install numpy scipy pandas
 ```
 
 To update `pip`, we can run
 
 ```commandline
-python -m pip install numpy
+python -m pip install --upgrade pip
 ```
 
-Now Python is all setup for the basic tasks of data science. Various other packages can now be installed (including 
-mine).
+Now Python is all setup for the basic tasks of data science, epidemiology, or biostatistics. Various other packages 
+can now be installed (including mine).
 
 Warning: before installing any package from the internet (including PyPI), you should check the corresponding PyPI page
 and wherever the open-source code is made available. Only download packages you can trust.
