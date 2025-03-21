@@ -22,6 +22,8 @@ For detailed instructions on how to install `pyenv` you can view the guide for M
 [documentation](https://github.com/pyenv-win/pyenv-win/blob/master/docs/installation.md) for installation on Windows. 
 I've used `pyenv` on both Windows and Linux.
 
+## Initial
+
 Once `pyenv` is installed, we can install a specific version of Python. Let's say we want to install v3.9.5. To do that,
 we would open terminal (Mac,Linux) or command prompt (Windows) and use the following command
 
@@ -50,8 +52,25 @@ hello world!
 
 where `quit()` will exit Python. 
 
-Other versions of Python can be installed. To switch the `python` keyword between versions, see the other documentation
-at the RealPython link provided above.
+## Maintenance
+
+To see what versions are installed, you can use the following command
+
+```pyenv versions```
+
+To see what Python versions are available for installation, you can use the following command
+
+```pyenv install -l```
+
+If a released version is not available, you might need to update the list of available versions. This can be done using
+
+```pyenv update```
+
+To change what version the `python` command corresponds to, we can set the global version. This is done via
+
+```
+pyenv global 3.9.6
+```
 
 # Install Packages
 
@@ -84,7 +103,8 @@ python -m pip install --upgrade pip
 ```
 
 Now Python is all setup for the basic tasks of data science, epidemiology, or biostatistics. Various other packages 
-can now be installed (including mine).
+can now be installed (including mine). Note that this process needs to be repeated for *each* installation in `pyenv`
+(packages do not carry between installations).
 
 Warning: before installing any package from the internet (including PyPI), you should check the corresponding PyPI page
 and wherever the open-source code is made available. Only download packages you can trust.
