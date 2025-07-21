@@ -30,6 +30,7 @@ summary of all my previous work, please see my CV (linked below).
 - [Software](pages/software.html)
 - [Python Guide](pages/python_intro.html)
 - [My Philosophy](pages/philosophy.html)
+- [AI Manifesto](pages/ai-manifesto.html)
 
 To adhere to the FAIR (Findability, Accessibility, Interoperability, and Reuse) principles for my research software, 
 code from selected publications is available on [Zenodo](https://zenodo.org/record/8100058).

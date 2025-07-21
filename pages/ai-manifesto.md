@@ -5,8 +5,6 @@ description: Overview of my philosophy
 ---
 
 
-### Large Language Models
-
 [Others](https://www.bydamo.la/p/ai-manifesto) have suggested and made "/ai manifesto" pages on their websites, so this
 is mine. It reflects my current thoughts and perspective.
 
@@ -17,6 +15,8 @@ machine learning (beyond LLMs), then I would generally say that 'AI' has some ut
 gaps. Pursuing those avenues of research is worthwhile. In my own work, use of machine learning appears to have some 
 utility for nuisance function estimation, but I am a bit more skeptical of how useful it will prove to be than many of 
 my peers. The remainder of this page focuses on LLMs.
+
+### Large Language Models
 
 My view is that LLMs have some uses, but these are far narrower than what is advertised by businesses financially 
 invested in their widespread integration. I have a general interest in how statistical model operate in different tasks 
