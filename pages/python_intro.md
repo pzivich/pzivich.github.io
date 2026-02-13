@@ -9,8 +9,8 @@ can view slides and arguments from my presentation at 43rd Annual Conference of 
 Biostatistics at this [LINK](https://github.com/pzivich/Presentations/blob/master/ISCB43/Zivich_Python_ISCB43.pdf).
 
 Despite Python being a powerhouse in data science, I've found less adoption among epidemiologists and biostatisticians.
-In case you wanted to get started with Python (or you are me from the future and setting up Python on a new device), 
-the following is the setup I use on all my computers. This guide should get you started with coding in Python
+In case you wanted to get started with Python (or you are future me and setting up Python on a new laptop), the 
+following is my go-to setup. This guide should get you started with coding in Python
 
 # Installation
 
@@ -29,7 +29,8 @@ we would open terminal (Mac,Linux) or command prompt (Windows) and use the follo
 
 ```pyenv install 3.9.5```
 
-This will take a little while, but you should see a message that says the install was completed.
+This will likely take a little while to fully install, but you should see a message that says the install was 
+completed.
 
 After installation, you should be able to type the command `python` and have it bring up something like
 
@@ -50,7 +51,7 @@ hello world!
 >>> quit()
 ```
 
-where `quit()` will exit Python. 
+where `quit()` exits Python. 
 
 ## Maintenance
 
